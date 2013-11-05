@@ -47,20 +47,6 @@
 			remoteGlobalIDString = FA3E36011828EFF600E2C5A4;
 			remoteInfo = AOTToolkit;
 		};
-		FA3E36B01828F0B400E2C5A4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA3E36AB1828F0B300E2C5A4 /* AOTToolkitDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA3E36791828F0B300E2C5A4;
-			remoteInfo = AOTToolkitDemo;
-		};
-		FA3E36B21828F0B400E2C5A4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FA3E36AB1828F0B300E2C5A4 /* AOTToolkitDemo.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FA3E36941828F0B300E2C5A4;
-			remoteInfo = AOTToolkitDemoTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,7 +71,6 @@
 		FA3E361D1828EFF600E2C5A4 /* AOTToolkitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AOTToolkitTests-Info.plist"; sourceTree = "<group>"; };
 		FA3E361F1828EFF600E2C5A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA3E36211828EFF600E2C5A4 /* AOTToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOTToolkitTests.m; sourceTree = "<group>"; };
-		FA3E36AB1828F0B300E2C5A4 /* AOTToolkitDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AOTToolkitDemo.xcodeproj; path = AOTToolkitDemo/AOTToolkitDemo.xcodeproj; sourceTree = "<group>"; };
 		FA3E36B91828F41400E2C5A4 /* UIView+AOTToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AOTToolkitAdditions.h"; sourceTree = "<group>"; };
 		FA3E36BA1828F41400E2C5A4 /* UIView+AOTToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AOTToolkitAdditions.m"; sourceTree = "<group>"; };
 		FA3E36BF1828F48300E2C5A4 /* AOTToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOTToolkit.h; sourceTree = "<group>"; };
@@ -132,7 +117,6 @@
 		FA3E35F91828EFF600E2C5A4 = {
 			isa = PBXGroup;
 			children = (
-				FA3E36AB1828F0B300E2C5A4 /* AOTToolkitDemo.xcodeproj */,
 				FA3E36071828EFF600E2C5A4 /* AOTToolkit */,
 				FA3E361B1828EFF600E2C5A4 /* AOTToolkitTests */,
 				FA3E36041828EFF600E2C5A4 /* Frameworks */,
@@ -197,15 +181,6 @@
 				FA3E361E1828EFF600E2C5A4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		FA3E36AC1828F0B300E2C5A4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FA3E36B11828F0B400E2C5A4 /* AOTToolkitDemo.app */,
-				FA3E36B31828F0B400E2C5A4 /* AOTToolkitDemoTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FA3E36B71828F3D400E2C5A4 /* Crypto */ = {
@@ -309,12 +284,6 @@
 			mainGroup = FA3E35F91828EFF600E2C5A4;
 			productRefGroup = FA3E36031828EFF600E2C5A4 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = FA3E36AC1828F0B300E2C5A4 /* Products */;
-					ProjectRef = FA3E36AB1828F0B300E2C5A4 /* AOTToolkitDemo.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				FA3E36011828EFF600E2C5A4 /* AOTToolkit */,
@@ -323,23 +292,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		FA3E36B11828F0B400E2C5A4 /* AOTToolkitDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = AOTToolkitDemo.app;
-			remoteRef = FA3E36B01828F0B400E2C5A4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FA3E36B31828F0B400E2C5A4 /* AOTToolkitDemoTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AOTToolkitDemoTests.xctest;
-			remoteRef = FA3E36B21828F0B400E2C5A4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FA3E36101828EFF600E2C5A4 /* Resources */ = {
