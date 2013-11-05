@@ -29,7 +29,6 @@
 		FA3E36201828EFF600E2C5A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA3E361E1828EFF600E2C5A4 /* InfoPlist.strings */; };
 		FA3E36221828EFF600E2C5A4 /* AOTToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3E36211828EFF600E2C5A4 /* AOTToolkitTests.m */; };
 		FA3E36BB1828F41400E2C5A4 /* UIView+AOTToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3E36BA1828F41400E2C5A4 /* UIView+AOTToolkitAdditions.m */; };
-		FA3E36C11828F48300E2C5A4 /* AOTToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3E36C01828F48300E2C5A4 /* AOTToolkit.m */; };
 		FA3E36C41828F4C000E2C5A4 /* UIViewController+AOTToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3E36C31828F4C000E2C5A4 /* UIViewController+AOTToolkitAdditions.m */; };
 		FA3E36C81828F57000E2C5A4 /* NSString+AOTToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3E36C71828F57000E2C5A4 /* NSString+AOTToolkitAdditions.m */; };
 		FA3E36CB1828F5D100E2C5A4 /* UINavigationController+AOTToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3E36CA1828F5D100E2C5A4 /* UINavigationController+AOTToolkitAdditions.m */; };
@@ -73,8 +72,6 @@
 		FA3E36211828EFF600E2C5A4 /* AOTToolkitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOTToolkitTests.m; sourceTree = "<group>"; };
 		FA3E36B91828F41400E2C5A4 /* UIView+AOTToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AOTToolkitAdditions.h"; sourceTree = "<group>"; };
 		FA3E36BA1828F41400E2C5A4 /* UIView+AOTToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AOTToolkitAdditions.m"; sourceTree = "<group>"; };
-		FA3E36BF1828F48300E2C5A4 /* AOTToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOTToolkit.h; sourceTree = "<group>"; };
-		FA3E36C01828F48300E2C5A4 /* AOTToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOTToolkit.m; sourceTree = "<group>"; };
 		FA3E36C21828F4C000E2C5A4 /* UIViewController+AOTToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AOTToolkitAdditions.h"; sourceTree = "<group>"; };
 		FA3E36C31828F4C000E2C5A4 /* UIViewController+AOTToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AOTToolkitAdditions.m"; sourceTree = "<group>"; };
 		FA3E36C61828F57000E2C5A4 /* NSString+AOTToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AOTToolkitAdditions.h"; sourceTree = "<group>"; };
@@ -146,8 +143,6 @@
 		FA3E36071828EFF600E2C5A4 /* AOTToolkit */ = {
 			isa = PBXGroup;
 			children = (
-				FA3E36BF1828F48300E2C5A4 /* AOTToolkit.h */,
-				FA3E36C01828F48300E2C5A4 /* AOTToolkit.m */,
 				FA3E36B71828F3D400E2C5A4 /* Crypto */,
 				FA3E36B81828F3D400E2C5A4 /* UI */,
 				FA3E36D51828FAE000E2C5A4 /* UICollectionView */,
@@ -332,7 +327,6 @@
 				FA3E36D11828F6B100E2C5A4 /* UIImage+MSImageNamed568hSupport.m in Sources */,
 				FA3E36D81828FAED00E2C5A4 /* AOTStickySectionFlowLayout.m in Sources */,
 				FA3E36C41828F4C000E2C5A4 /* UIViewController+AOTToolkitAdditions.m in Sources */,
-				FA3E36C11828F48300E2C5A4 /* AOTToolkit.m in Sources */,
 				FA3E36CE1828F62900E2C5A4 /* NSObject+AOTToolkitAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
