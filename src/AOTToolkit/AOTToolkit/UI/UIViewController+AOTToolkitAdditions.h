@@ -10,4 +10,6 @@
 
 @interface UIViewController (AOTToolkitAdditions)
 
+- (void)removeAllChildViewControllers;
+
 @end

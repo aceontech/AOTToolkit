@@ -10,4 +10,18 @@
 
 @implementation UIView (AOTToolkitAdditions)
 
+- (void)addSubviewOnce:(UIView *)view
+{
+    if (![view isDescendantOfView:self]) {
+        [self addSubview:view];
+    }
+}
+
+- (void)removeAllSubviews
+{
+    for (UIView *subview in self.subviews) {
+        [subview removeFromSuperview];
+    }
+}
+
 @end

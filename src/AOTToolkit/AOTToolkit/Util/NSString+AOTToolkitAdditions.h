@@ -10,4 +10,6 @@
 
 @interface NSString (AOTToolkitAdditions)
 
++ (BOOL)isStringNilOrEmpty:(NSString *)string;
+
 @end

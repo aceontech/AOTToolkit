@@ -19,6 +19,7 @@
 		FA3E36981828F0B300E2C5A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3E36801828F0B300E2C5A4 /* UIKit.framework */; };
 		FA3E36A01828F0B300E2C5A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA3E369E1828F0B300E2C5A4 /* InfoPlist.strings */; };
 		FA3E36A21828F0B300E2C5A4 /* AOTToolkitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3E36A11828F0B300E2C5A4 /* AOTToolkitDemoTests.m */; };
+		FA3E36B51828F2E300E2C5A4 /* libAOTToolkit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3E36B41828F2E300E2C5A4 /* libAOTToolkit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		FA3E369D1828F0B300E2C5A4 /* AOTToolkitDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AOTToolkitDemoTests-Info.plist"; sourceTree = "<group>"; };
 		FA3E369F1828F0B300E2C5A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA3E36A11828F0B300E2C5A4 /* AOTToolkitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AOTToolkitDemoTests.m; sourceTree = "<group>"; };
+		FA3E36B41828F2E300E2C5A4 /* libAOTToolkit.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libAOTToolkit.a; path = "../build/Debug-iphoneos/libAOTToolkit.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3E36B51828F2E300E2C5A4 /* libAOTToolkit.a in Frameworks */,
 				FA3E367F1828F0B300E2C5A4 /* CoreGraphics.framework in Frameworks */,
 				FA3E36811828F0B300E2C5A4 /* UIKit.framework in Frameworks */,
 				FA3E367D1828F0B300E2C5A4 /* Foundation.framework in Frameworks */,
@@ -96,6 +99,7 @@
 		FA3E367B1828F0B300E2C5A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA3E36B41828F2E300E2C5A4 /* libAOTToolkit.a */,
 				FA3E367C1828F0B300E2C5A4 /* Foundation.framework */,
 				FA3E367E1828F0B300E2C5A4 /* CoreGraphics.framework */,
 				FA3E36801828F0B300E2C5A4 /* UIKit.framework */,
@@ -365,6 +369,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AOTToolkitDemo/AOTToolkitDemo-Prefix.pch";
 				INFOPLIST_FILE = "AOTToolkitDemo/AOTToolkitDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -378,6 +383,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AOTToolkitDemo/AOTToolkitDemo-Prefix.pch";
 				INFOPLIST_FILE = "AOTToolkitDemo/AOTToolkitDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

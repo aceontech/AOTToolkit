@@ -10,4 +10,7 @@
 
 @interface UIView (AOTToolkitAdditions)
 
+- (void)addSubviewOnce:(UIView *)view;
+- (void)removeAllSubviews;
+
 @end

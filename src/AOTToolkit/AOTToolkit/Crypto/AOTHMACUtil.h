@@ -1,5 +1,5 @@
 //
-//  NSObject+AOTToolkitAdditions.h
+//  AOTHMACUtil.h
 //  AOTToolkit
 //
 //  Created by Alex Manarpies on 05/11/13.
@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSObject (AOTToolkitAdditions)
+@interface AOTHMACUtil : NSObject
 
-- (id)clone;
++ (NSString *)sha256DigestFromKey:(NSString *)key andData:(NSString *)data;
 
 @end

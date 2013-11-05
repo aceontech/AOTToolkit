@@ -10,4 +10,10 @@
 
 @implementation NSObject (AOTToolkitAdditions)
 
+- (id)clone
+{
+    NSData *data = [NSKeyedArchiver archivedDataWithRootObject:self];
+    return [NSKeyedUnarchiver unarchiveObjectWithData:data];
+}
+
 @end

@@ -10,4 +10,9 @@
 
 @implementation NSString (AOTToolkitAdditions)
 
++ (BOOL)isStringNilOrEmpty:(NSString *)string
+{
+    return string == nil || [string isEqualToString:@""];
+}
+
 @end

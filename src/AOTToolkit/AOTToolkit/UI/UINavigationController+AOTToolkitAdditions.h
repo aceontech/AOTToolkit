@@ -10,4 +10,7 @@
 
 @interface UINavigationController (AOTToolkitAdditions)
 
+- (void)clearNavigationStackExceptLast:(NSInteger)last;
+- (void)clearNavigationStack;
+
 @end

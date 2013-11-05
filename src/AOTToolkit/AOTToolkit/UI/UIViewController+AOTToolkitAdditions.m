@@ -10,4 +10,13 @@
 
 @implementation UIViewController (AOTToolkitAdditions)
 
+- (void)removeAllChildViewControllers
+{
+    for (UIViewController *controller in self.childViewControllers)
+    {
+        [controller.view removeFromSuperview];
+        [controller removeFromParentViewController];
+    }
+}
+
 @end
