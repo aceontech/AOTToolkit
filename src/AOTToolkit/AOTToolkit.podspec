@@ -23,25 +23,26 @@ Pod::Spec.new do |s|
   s.platform     = :ios
 
   s.source       = { :git => "git@bitbucket.org:manaral/aottoolkit.git", :tag => "0.1.0" }
+  s.source_files = 'src/AOTToolkit/AOTToolkit/**/*.{h,m}'
 
   s.frameworks = 'Foundation'
 
   s.requires_arc = true
 
  s.subspec 'UI' do |ui|
-    ui.source_files = 'AOTToolkit/UI/**/*.{h,m}'
+    ui.source_files = 'src/AOTToolkit/AOTToolkit/UI/**/*.{h,m}'
   end
 
   s.subspec 'Crypto' do |crypto|
-    crypto.source_files = 'AOTToolkit/Crypto/**/*.{h,m}'
+    crypto.source_files = 'src/AOTToolkit/AOTToolkit/Crypto/**/*.{h,m}'
   end
 
   s.subspec 'UICollectionView' do |collectionView|
-    collectionView.source_files = 'AOTToolkit/UICollectionView/**/*.{h,m}'
+    collectionView.source_files = 'src/AOTToolkit/AOTToolkit/UICollectionView/**/*.{h,m}'
   end
 
   s.subspec 'Util' do |util|
-    util.source_files = 'AOTToolkit/Util/**/*.{h,m}'
+    util.source_files = 'src/AOTToolkit/AOTToolkit/Util/**/*.{h,m}'
   end
  
 
