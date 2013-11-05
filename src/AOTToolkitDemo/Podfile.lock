@@ -1,0 +1,18 @@
+PODS:
+  - AOTToolkit (0.1.0):
+    - AOTToolkit/Crypto
+    - AOTToolkit/UI
+    - AOTToolkit/UICollectionView
+    - AOTToolkit/Util
+  - AOTToolkit/Crypto (0.1.0)
+  - AOTToolkit/UI (0.1.0)
+  - AOTToolkit/UICollectionView (0.1.0)
+  - AOTToolkit/Util (0.1.0)
+
+DEPENDENCIES:
+  - AOTToolkit
+
+SPEC CHECKSUMS:
+  AOTToolkit: c5ce02575f2e9f61465ef8edd43b5cea5ee808d5
+
+COCOAPODS: 0.27.1
