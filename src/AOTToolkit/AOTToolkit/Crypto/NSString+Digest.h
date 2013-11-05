@@ -1,5 +1,5 @@
 //
-//  UIView+AOTToolkitAdditions.h
+//  NSString+Digest.h
 //
 //  Copyright (c) 2013 Alex Manarpies // http://aceontech.com
 //
@@ -21,22 +21,19 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 /**
- * Additions to UIView for easier code-first iOS UI development.
+ * Adds hashing capabilities to NSString
  */
-@interface UIView (AOTToolkitAdditions)
+@interface NSString (Digest)
 
 /**
- * Add view as subview, only if it isn't already a descendant.
- * @param view The view to add
+ * Creates a SHA256 hash of the input string
+ * @param input The input string to be hashed
  */
-- (void)addSubviewOnce:(UIView *)view;
++ (NSString *)SHA256Digest:(NSString *)input;
 
-/**
- * Remove all subviews
- */
-- (void)removeAllSubviews;
+- (NSString *)SHA256Digest;
 
 @end

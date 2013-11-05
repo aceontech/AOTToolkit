@@ -1,7 +1,7 @@
 //
 //  AOTHMACUtil.m
 //
-//  Copyright (c) 2013 Alex Manarpies
+//  Copyright (c) 2013 Alex Manarpies // http://aceontech.com
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal

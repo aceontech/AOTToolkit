@@ -1,5 +1,5 @@
 //
-//  UIView+AOTToolkitAdditions.h
+//  NSString+Digest.m
 //
 //  Copyright (c) 2013 Alex Manarpies // http://aceontech.com
 //
@@ -21,22 +21,34 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import "NSString+Digest.h"
+#import <CommonCrypto/CommonDigest.h>
 
-/**
- * Additions to UIView for easier code-first iOS UI development.
- */
-@interface UIView (AOTToolkitAdditions)
+@implementation NSString (Digest)
 
-/**
- * Add view as subview, only if it isn't already a descendant.
- * @param view The view to add
- */
-- (void)addSubviewOnce:(UIView *)view;
++ (NSString *)SHA256Digest:(NSString *)input
+{
+    const char *cstr = [input cStringUsingEncoding:NSUTF8StringEncoding];
+    NSData *data = [NSData dataWithBytes:cstr length:input.length];
+    uint8_t digest[CC_SHA256_DIGEST_LENGTH];
+    
+    // This is an iOS5-specific method.
+    // It takes in the data, how much data, and then output format, which in this case is an int array.
+    CC_SHA256(data.bytes, data.length, digest);
+    
+    NSMutableString* output = [NSMutableString stringWithCapacity:CC_SHA256_DIGEST_LENGTH * 2];
+    
+    // Parse through the CC_SHA256 results (stored inside of digest[]).
+    for(int i = 0; i < CC_SHA256_DIGEST_LENGTH; i++) {
+        [output appendFormat:@"%02x", digest[i]];
+    }
+    
+    return output;
+}
 
-/**
- * Remove all subviews
- */
-- (void)removeAllSubviews;
+- (NSString *)SHA256Digest
+{
+    return [[self class] SHA256Digest:self];
+}
 
 @end

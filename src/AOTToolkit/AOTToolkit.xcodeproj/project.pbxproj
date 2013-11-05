@@ -21,6 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		FA1DF4111829472A0039FA85 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1DF40E1829472A0039FA85 /* NSData+AES.m */; };
+		FA1DF4121829472A0039FA85 /* NSString+Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1DF4101829472A0039FA85 /* NSString+Digest.m */; };
 		FA3E36061828EFF600E2C5A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3E36051828EFF600E2C5A4 /* Foundation.framework */; };
 		FA3E36141828EFF600E2C5A4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3E36131828EFF600E2C5A4 /* XCTest.framework */; };
 		FA3E36151828EFF600E2C5A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3E36051828EFF600E2C5A4 /* Foundation.framework */; };
@@ -61,6 +63,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA1DF40D1829472A0039FA85 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		FA1DF40E1829472A0039FA85 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		FA1DF40F1829472A0039FA85 /* NSString+Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Digest.h"; sourceTree = "<group>"; };
+		FA1DF4101829472A0039FA85 /* NSString+Digest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Digest.m"; sourceTree = "<group>"; };
 		FA3E36021828EFF600E2C5A4 /* libAOTToolkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAOTToolkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3E36051828EFF600E2C5A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA3E36091828EFF600E2C5A4 /* AOTToolkit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AOTToolkit-Prefix.pch"; sourceTree = "<group>"; };
@@ -183,6 +189,10 @@
 			children = (
 				FA3E36D21828F71500E2C5A4 /* AOTHMACUtil.h */,
 				FA3E36D31828F71500E2C5A4 /* AOTHMACUtil.m */,
+				FA1DF40D1829472A0039FA85 /* NSData+AES.h */,
+				FA1DF40E1829472A0039FA85 /* NSData+AES.m */,
+				FA1DF40F1829472A0039FA85 /* NSString+Digest.h */,
+				FA1DF4101829472A0039FA85 /* NSString+Digest.m */,
 			);
 			path = Crypto;
 			sourceTree = "<group>";
@@ -325,6 +335,8 @@
 				FA3E36C81828F57000E2C5A4 /* NSString+AOTToolkitAdditions.m in Sources */,
 				FA3E36D41828F71500E2C5A4 /* AOTHMACUtil.m in Sources */,
 				FA3E36D11828F6B100E2C5A4 /* UIImage+MSImageNamed568hSupport.m in Sources */,
+				FA1DF4121829472A0039FA85 /* NSString+Digest.m in Sources */,
+				FA1DF4111829472A0039FA85 /* NSData+AES.m in Sources */,
 				FA3E36D81828FAED00E2C5A4 /* AOTStickySectionFlowLayout.m in Sources */,
 				FA3E36C41828F4C000E2C5A4 /* UIViewController+AOTToolkitAdditions.m in Sources */,
 				FA3E36CE1828F62900E2C5A4 /* NSObject+AOTToolkitAdditions.m in Sources */,

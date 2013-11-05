@@ -1,5 +1,5 @@
 //
-//  UIView+AOTToolkitAdditions.h
+//  NSData+AES.h
 //
 //  Copyright (c) 2013 Alex Manarpies // http://aceontech.com
 //
@@ -21,22 +21,23 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 //  SOFTWARE.
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 /**
- * Additions to UIView for easier code-first iOS UI development.
+ * Adds AES encryption and decryption capabilities to NSData.
  */
-@interface UIView (AOTToolkitAdditions)
+@interface NSData (AES)
 
 /**
- * Add view as subview, only if it isn't already a descendant.
- * @param view The view to add
+ * Encrypt NSData using AES256 with a given symmetric encryption key.
+ * @param key The symmetric encryption key
  */
-- (void)addSubviewOnce:(UIView *)view;
+- (NSData *)AES256EncryptWithKey:(NSString *)key;
 
 /**
- * Remove all subviews
+ * Decrypt NSData using AES256 with a given symmetric encryption key.
+ * @param key The symmetric encryption key
  */
-- (void)removeAllSubviews;
+- (NSData *)AES256DecryptWithKey:(NSString *)key;
 
 @end
