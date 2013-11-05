@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                    * Util: General utilities (e.g. NSString, NSObject)
                    DESC
 
-  s.homepage     = "https://bitbucket.org/manaral/aottoolkit/"
+  s.homepage     = "https://github.com/aceontech/AOTToolkit"
 
   s.license      = 'MIT'
 
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios
 
-  s.source       = { :git => "git@bitbucket.org:manaral/aottoolkit.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/aceontech/AOTToolkit.git", :tag => "0.1.0" }
   s.source_files = 'src/AOTToolkit/AOTToolkit/**/*.{h,m}'
 
   s.frameworks = 'Foundation'
