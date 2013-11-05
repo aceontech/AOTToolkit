@@ -8,9 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ * Additions to UINavigationController for easier navigation stack management
+ */
 @interface UINavigationController (AOTToolkitAdditions)
 
+/**
+ * Clear navigation stack before a given index.
+ * @param last Index to retain. Everything before index will be popped.
+ */
 - (void)clearNavigationStackExceptLast:(NSInteger)last;
+
+/**
+ * Clear the entire navigation stack.
+ */
 - (void)clearNavigationStack;
 
 @end

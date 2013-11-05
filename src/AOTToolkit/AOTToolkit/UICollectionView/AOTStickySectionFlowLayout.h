@@ -7,6 +7,9 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ * Layout implements sticky section headers like those seen on UITableView.
+ */
 @interface AOTStickySectionFlowLayout : UICollectionViewFlowLayout
 
 @end

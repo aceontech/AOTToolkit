@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ * Additions to UIViewController for easier iOS UI development.
+ */
 @interface UIViewController (AOTToolkitAdditions)
 
+/**
+ * Remove all child controllers
+ */
 - (void)removeAllChildViewControllers;
 
 @end
