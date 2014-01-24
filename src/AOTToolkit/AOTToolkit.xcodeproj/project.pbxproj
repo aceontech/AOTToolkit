@@ -39,6 +39,7 @@
 		FA3E36D11828F6B100E2C5A4 /* UIImage+MSImageNamed568hSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3E36D01828F6B100E2C5A4 /* UIImage+MSImageNamed568hSupport.m */; };
 		FA3E36D41828F71500E2C5A4 /* AOTHMACUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3E36D31828F71500E2C5A4 /* AOTHMACUtil.m */; };
 		FA3E36D81828FAED00E2C5A4 /* AOTStickySectionFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3E36D71828FAED00E2C5A4 /* AOTStickySectionFlowLayout.m */; };
+		FA61223D18929C2700FDDFB6 /* UIPopoverController+iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = FA61223C18929C2700FDDFB6 /* UIPopoverController+iPhone.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,8 @@
 		FA3E36D31828F71500E2C5A4 /* AOTHMACUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOTHMACUtil.m; sourceTree = "<group>"; };
 		FA3E36D61828FAED00E2C5A4 /* AOTStickySectionFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOTStickySectionFlowLayout.h; sourceTree = "<group>"; };
 		FA3E36D71828FAED00E2C5A4 /* AOTStickySectionFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOTStickySectionFlowLayout.m; sourceTree = "<group>"; };
+		FA61223B18929C2700FDDFB6 /* UIPopoverController+iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+iPhone.h"; sourceTree = "<group>"; };
+		FA61223C18929C2700FDDFB6 /* UIPopoverController+iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+iPhone.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +206,8 @@
 		FA3E36B81828F3D400E2C5A4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				FA61223B18929C2700FDDFB6 /* UIPopoverController+iPhone.h */,
+				FA61223C18929C2700FDDFB6 /* UIPopoverController+iPhone.m */,
 				FA152BD7182A55D700652717 /* UIColor+AOTToolkitAdditions.h */,
 				FA152BD8182A55D700652717 /* UIColor+AOTToolkitAdditions.m */,
 				FA3E36B91828F41400E2C5A4 /* UIView+AOTToolkitAdditions.h */,
@@ -337,6 +342,7 @@
 			files = (
 				FA3E36CB1828F5D100E2C5A4 /* UINavigationController+AOTToolkitAdditions.m in Sources */,
 				FA3E36BB1828F41400E2C5A4 /* UIView+AOTToolkitAdditions.m in Sources */,
+				FA61223D18929C2700FDDFB6 /* UIPopoverController+iPhone.m in Sources */,
 				FA3E36C81828F57000E2C5A4 /* NSString+AOTToolkitAdditions.m in Sources */,
 				FA3E36D41828F71500E2C5A4 /* AOTHMACUtil.m in Sources */,
 				FA152BD9182A55D700652717 /* UIColor+AOTToolkitAdditions.m in Sources */,
