@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		FA152BD9182A55D700652717 /* UIColor+AOTToolkitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FA152BD8182A55D700652717 /* UIColor+AOTToolkitAdditions.m */; };
 		FA1DF4111829472A0039FA85 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1DF40E1829472A0039FA85 /* NSData+AES.m */; };
 		FA1DF4121829472A0039FA85 /* NSString+Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1DF4101829472A0039FA85 /* NSString+Digest.m */; };
 		FA3E36061828EFF600E2C5A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA3E36051828EFF600E2C5A4 /* Foundation.framework */; };
@@ -63,6 +64,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA152BD7182A55D700652717 /* UIColor+AOTToolkitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AOTToolkitAdditions.h"; sourceTree = "<group>"; };
+		FA152BD8182A55D700652717 /* UIColor+AOTToolkitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AOTToolkitAdditions.m"; sourceTree = "<group>"; };
 		FA1DF40D1829472A0039FA85 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
 		FA1DF40E1829472A0039FA85 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
 		FA1DF40F1829472A0039FA85 /* NSString+Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Digest.h"; sourceTree = "<group>"; };
@@ -200,6 +203,8 @@
 		FA3E36B81828F3D400E2C5A4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				FA152BD7182A55D700652717 /* UIColor+AOTToolkitAdditions.h */,
+				FA152BD8182A55D700652717 /* UIColor+AOTToolkitAdditions.m */,
 				FA3E36B91828F41400E2C5A4 /* UIView+AOTToolkitAdditions.h */,
 				FA3E36BA1828F41400E2C5A4 /* UIView+AOTToolkitAdditions.m */,
 				FA3E36C21828F4C000E2C5A4 /* UIViewController+AOTToolkitAdditions.h */,
@@ -334,6 +339,7 @@
 				FA3E36BB1828F41400E2C5A4 /* UIView+AOTToolkitAdditions.m in Sources */,
 				FA3E36C81828F57000E2C5A4 /* NSString+AOTToolkitAdditions.m in Sources */,
 				FA3E36D41828F71500E2C5A4 /* AOTHMACUtil.m in Sources */,
+				FA152BD9182A55D700652717 /* UIColor+AOTToolkitAdditions.m in Sources */,
 				FA3E36D11828F6B100E2C5A4 /* UIImage+MSImageNamed568hSupport.m in Sources */,
 				FA1DF4121829472A0039FA85 /* NSString+Digest.m in Sources */,
 				FA1DF4111829472A0039FA85 /* NSData+AES.m in Sources */,
