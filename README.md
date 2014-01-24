@@ -1,5 +1,4 @@
-AOTToolkit
-==========
+# AOTToolkit
 
 This toolkit contains various helper classes and categories to aid in iOS development.
 It currently encompasses the following modules:
